@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+   <form method='POST'>
+    <fieldset>
+        <legend>DATE OF BIRTH</legend>
+     
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female"> Female  <br>
+<hr>
+ <input type="submit" value="Submit">
+</fieldset>
+ </form>
+
+
+<?php
+$gender = $_POST['gender'];
+echo "<h3> Hello $gender </h3>";
+?>
+</body>
+</html>

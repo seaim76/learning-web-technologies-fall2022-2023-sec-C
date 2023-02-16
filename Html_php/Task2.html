@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+   <form method='POST'>
+    <fieldset>
+        <legend>Email</legend>
+     
+ <input type="email" name="email"> <br>
+<hr>
+ <input type="submit" value="Submit">
+</fieldset>
+ </form>
+
+
+<?php
+$email = $_POST['email'];
+echo "<h3> Hello $email </h3>";
+?>
+</body>
+</html>

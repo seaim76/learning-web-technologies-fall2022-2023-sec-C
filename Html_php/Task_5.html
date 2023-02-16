@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+   <form method='POST'>
+    <fieldset>
+        <legend>DEGREE</legend>
+        <input type="checkbox" name="checkbox">SSC
+        <input type="checkbox" name="checkbox">HSC
+        <input type="checkbox" name="checkbox">BSC
+        <input type="checkbox" name="checkbox">MSc
+     
+  <br>
+<hr>
+ <input type="submit" value="Submit">
+</fieldset>
+ </form>
+
+
+<?php
+$checkbox = $_POST['checkbox'];
+echo "<h3> Hello $checkbox </h3>";
+?>
+</body>
+</html>
